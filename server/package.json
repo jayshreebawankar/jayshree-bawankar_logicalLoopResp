@@ -14,8 +14,9 @@
     "express": "^4.17.2",
     "mongoose": "^6.2.1"
   },
-  "description": "",
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

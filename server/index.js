@@ -11,8 +11,8 @@ app.use("/user", UserRouter);
 
 mongoose
   .connect(
-    `mongodb+srv://roshanadmin:roshanmongo@cluster0.zmwyl.mongodb.net/Todo?retryWrites=true&w=majority`
-  )
+    'mongodb+srv://jayshree:12345@cluster0.ltmfq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+    )
   .then(
     app.listen("8000", () => {
       console.log("Server runs at port 8000");
